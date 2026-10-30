@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Checkout — Thala 7.</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="logo" href="index.html"><span>Thala</span> <b>7.</b></a>
+    <nav class="main-nav"><a href="index.html">Home</a><a href="index.html#about">About</a><a href="product.html">Brands <small>⌄</small></a><a href="cart.html">More <small>⌄</small></a><a href="#contact">Contact</a></nav>
+    <div class="header-actions"><form class="search-box"><span>⌕</span><input type="search" placeholder="Search"></form><a class="cart-icon" href="cart.html">♧ <i>3</i></a><a class="avatar" href="payment.html">S</a></div>
+  </header>
+  <main class="checkout-page page-wrap">
+    <div class="checkout-grid">
+      <section class="checkout-left">
+        <span class="eyebrow">CHECKOUT</span>
+        <h1>Contact Details</h1>
+        <label class="field-label" for="email">Email ID</label>
+        <input class="form-field" id="email" type="email" placeholder="john.doe@example.com">
+        <h2>Payment</h2>
+        <div class="payment-options">
+          <label class="payment-option selected"><span>▣</span>Card</label>
+          <label class="payment-option"><span>₿</span>Crypto</label>
+          <label class="payment-option"><span>▤</span>Bank</label>
+          <label class="payment-option"><span>⋮</span>More</label>
+        </div>
+        <label class="field-label" for="card">Card Number</label>
+        <input class="form-field" id="card" type="text" placeholder="0000 0000 0000 0000">
+        <div class="form-two"><div><label class="field-label" for="expiry">Expiry</label><input class="form-field" id="expiry" type="text" placeholder="MM/YY"></div><div><label class="field-label" for="cvc">CVC</label><input class="form-field" id="cvc" type="text" placeholder="•••"></div></div>
+        <div class="form-two"><div><label class="field-label" for="country">Country</label><select class="form-field" id="country"><option>India</option><option>United States</option><option>United Kingdom</option></select></div><div><label class="field-label" for="zip">ZIP</label><input class="form-field" id="zip" type="text" placeholder="XXXXX"></div></div>
+      </section>
+      <aside class="checkout-right">
+        <h2>Order Summary</h2>
+        <div class="summary-card">
+          <label for="checkout-coupon">Enter Coupon Code</label>
+          <div class="coupon-row"><input id="checkout-coupon" type="text" placeholder="COUPON CODE"><button type="button">Apply Coupon</button></div>
+          <div class="summary-row"><span>Sub Total</span><span>₹4,002</span></div>
+          <div class="summary-row"><span>Taxes (if applicable)</span><span>₹199</span></div>
+          <div class="summary-row"><span>Discount</span><span>−₹0</span></div>
+          <div class="summary-row total"><b>Total</b><strong>₹4,201</strong></div>
+        </div>
+        <a class="button button-orange pay-button" href="#" onclick="return false;">Pay Now &nbsp; ₹4,201</a>
+        <div class="payment-logos"><span class="secure">♢ SECURE</span><b class="razorpay">Razorpay</b><span class="secure">✓ SAFE</span></div>
+      </aside>
+    </div>
+  </main>
+  <footer id="contact"><span class="logo"><span>Thala</span> <b>7.</b></span><p>Made for every reason to move.</p><small>© 2026 Seven Sneaker Store</small></footer>
+</body>
+</html>
